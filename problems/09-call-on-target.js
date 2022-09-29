@@ -1,6 +1,8 @@
 function callOnTarget(func, obj1, obj2) {
-  // Your code here
+  return func.call(obj1, obj2);
 }
+
+//return the result of invoking func with obj1 as its context and obj2 as the FIRST argument.
 
 
 /*****************************************************************************/
